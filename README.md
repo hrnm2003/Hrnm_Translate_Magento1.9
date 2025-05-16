@@ -4,7 +4,7 @@
 
 `Hrnm_Translate` is a custom Magento 1.9 module developed to extend the template filtering system and add support for a new `{{trans}}` directive within CMS content (blocks, pages, emails, etc.). This directive enables easy localization and translation of strings directly within template content.
 
-This module allows developers and content managers to define translatable strings with optional dynamic parameters and modifiers such as escaping HTML or rendering raw HTML.
+This module allows developers and content managers to define translatable strings with optional dynamic parameters and modifiers such as escaping HTML or rendering raw HTML. (Under GPL-3.0 License)
 
 ## Features
 * Adds a new template directive: `{{trans}}`
