@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- 
+/*
+ * Hrnm_Translate Module
+
+ * @category   Hrnm
+ * @package    Hrnm_Translate
+ * @version    1.0.0
+ * @Magneto    1.9
+ * @make       Create at 2016 and published in 2025 by Hamid Reza Nadi Moghadam
+ * @copyright  Copyright (c) by Hrnm
+ * @license    GPL
+
+ */
+ -->
+<config>
+    <modules>
+        <Hrnm_Translate>
+            <version>1.0.0</version>
+        </Hrnm_Translate>
+    </modules>
+    <global>
+        <models>
+          <widget>
+              <rewrite>
+                  <template_filter>Hrnm_Translate_Model_Template_Filter</template_filter>
+              </rewrite>
+          </widget>
+       </models>
+        <helpers>
+            <hrnm_translate>
+                <class>Hrnm_Translate_Helper</class>
+            </hrnm_translate>
+        </helpers>
+    </global>
+</config>

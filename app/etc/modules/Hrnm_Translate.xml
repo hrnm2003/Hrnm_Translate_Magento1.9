@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hrnm_Translate>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Hrnm_Translate>
+    </modules>
+</config>
